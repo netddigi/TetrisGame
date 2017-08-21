@@ -3,7 +3,11 @@
 
 CBlockBar::CBlockBar()
 {
-	
+	memset(m_arnShape, 0, sizeof(m_arnShape));
+	m_arnShape[0][3] = 1;
+	m_arnShape[1][3] = 1;
+	m_arnShape[2][3] = 1;
+	m_arnShape[3][3] = 1;
 }
 
 void CBlockBar::ChangeDirection()
