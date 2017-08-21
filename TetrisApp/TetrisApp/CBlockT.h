@@ -6,6 +6,7 @@ class CBlockT : CBlock
 public:
 	CBlockT();
 	void ChangeDirection() override;
+	void ChangePosition() override;
 
 public:
 private:

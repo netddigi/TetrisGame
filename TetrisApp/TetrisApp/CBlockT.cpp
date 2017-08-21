@@ -9,3 +9,8 @@ void CBlockT::ChangeDirection()
 {
 
 }
+
+void CBlockT::ChangePosition()
+{
+
+}

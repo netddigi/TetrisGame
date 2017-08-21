@@ -9,3 +9,8 @@ void CBlockRectangle::ChangeDirection()
 {
 
 }
+
+void CBlockRectangle::ChangePosition()
+{
+
+}

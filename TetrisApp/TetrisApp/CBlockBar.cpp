@@ -9,3 +9,8 @@ void CBlockBar::ChangeDirection()
 {
 
 }
+
+void CBlockBar::ChangePosition()
+{
+
+}

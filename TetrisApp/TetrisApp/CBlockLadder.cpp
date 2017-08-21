@@ -9,3 +9,8 @@ void CBlockLadder::ChangeDirection()
 {
 
 }
+
+void CBlockLadder::ChangePosition()
+{
+
+}

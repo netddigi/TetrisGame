@@ -6,6 +6,7 @@ class CBlockLadder : CBlock
 public:
 	CBlockLadder();
 	void ChangeDirection() override;
+	void ChangePosition() override;
 
 public:
 private:

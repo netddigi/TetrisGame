@@ -148,6 +148,10 @@
   <ItemGroup>
     <ClInclude Include="CBlock.h" />
     <ClInclude Include="CBlockBar.h" />
+    <ClInclude Include="CBlockL.h" />
+    <ClInclude Include="CBlockLadder.h" />
+    <ClInclude Include="CBlockRectangle.h" />
+    <ClInclude Include="CBlockT.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -157,6 +161,8 @@
   <ItemGroup>
     <ClCompile Include="CBlockBar.cpp" />
     <ClCompile Include="CBlockL.cpp" />
+    <ClCompile Include="CBlockLadder.cpp" />
+    <ClCompile Include="CBlockRectangle.cpp" />
     <ClCompile Include="CBlockT.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

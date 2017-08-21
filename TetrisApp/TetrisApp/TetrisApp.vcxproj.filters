@@ -45,6 +45,18 @@
     <ClInclude Include="CBlockBar.h">
       <Filter>헤더 파일\CBlock</Filter>
     </ClInclude>
+    <ClInclude Include="CBlockT.h">
+      <Filter>헤더 파일\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockL.h">
+      <Filter>헤더 파일\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockLadder.h">
+      <Filter>헤더 파일\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockRectangle.h">
+      <Filter>헤더 파일\CBlock</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -60,6 +72,12 @@
       <Filter>소스 파일\CBlock</Filter>
     </ClCompile>
     <ClCompile Include="CBlockT.cpp">
+      <Filter>소스 파일\CBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockRectangle.cpp">
+      <Filter>소스 파일\CBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockLadder.cpp">
       <Filter>소스 파일\CBlock</Filter>
     </ClCompile>
   </ItemGroup>
